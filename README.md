@@ -1,2 +1,2 @@
-# materializecss
-Desenvolvendo um layout com o framework materializecss;
+# Criando um novo lauyout materializecss
+Desenvolvendo um layout completamente do zero com o framework materializecss.
