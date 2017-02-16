@@ -56,11 +56,18 @@
       .collapsible-body{
         border:0;
       }
+      .churros{
+        float: right;
+        width: 400px;
+      }
+      .card-content{
+        color:#222;
+      }
     </style>
   </head>
   <body>
     <br><br>
-    <div class="container">
+    <div class="container-fluid">
 
         <nav class="menu">
           <div class="nav-wrapper">
@@ -84,10 +91,28 @@
         <div class="row">
             <div class="col s12 principal">
               <h1>Quem somos?</h1>
-              <p>Nada</p>
+              <p>Nós somos a NASA, portanto somos os melhores no que fazemos.</p>
 
 
-              <ul class="collapsible popout" data-collapsible="accordion">
+              <div class="row">
+                  <div class="col s12 m6">
+                    <div class="card small">
+                      <div class="card-image">
+                        <img src="http://materializecss.com/images/sample-1.jpg">
+                        <span class="card-title">Card Title</span>
+                        <!-- <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a> -->
+                      </div>
+                      <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+              <ul class="collapsible popout churros" data-collapsible="accordion">
                 <li>
                   <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
                   <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
@@ -101,7 +126,6 @@
                   <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
                 </li>
               </ul>
-
             </div>
         </div>
 
